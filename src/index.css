@@ -10,5 +10,5 @@ html {
 
 body {
     margin: 0;
-    background-color: #3f3f3f;
+    background: linear-gradient(45deg, #55a0c2, #9750be);
 }

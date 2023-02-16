@@ -10,17 +10,24 @@
     font-weight: bold;
     margin-bottom: 0.5rem;
     display: block;
+    color: white;
 }
 
 .new-expense__control input {
     font: inherit;
     padding: 0.5rem;
     border-radius: 6px;
-    border: 1px solid #ccc;
+    border: 0.5px solid #030303;
     width: 20rem;
     max-width: 100%;
+    background-color: #f5f5f57b;
+    outline: 0;
 }
 
+.new-expense__control input:active,
+.new-expense__control input:focus {
+    transform: scale(1.025);
+}
 .new-expense__actions {
     text-align: right;
 }
