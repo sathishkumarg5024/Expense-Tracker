@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Heading from "./components/UI/Heading";
 
 import NewExpense from "./components/NewExpense/NewExpense";
 import Expenses from "./components/Expenses/Expenses";
@@ -43,6 +44,7 @@ const App = () => {
 
     return (
         <div>
+            <Heading />
             <NewExpense onAddExpense={addExpenseHandler} />
             <Expenses items={expenses} />
         </div>
