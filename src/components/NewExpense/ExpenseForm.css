@@ -1,6 +1,5 @@
 .new-expense__controls {
-    display: flex;
-    flex-wrap: wrap;
+    display: inline-flex;
     gap: 1rem;
     margin-bottom: 1rem;
     text-align: left;
